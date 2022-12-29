@@ -14,6 +14,8 @@ int main()
     char choice;
     srand(time(0)); // "Seed" the random generator
     cout << "\n\t\t========WELCOME TO CASINO WORLD=======\n\n";
+        cout << "\n\t\t========WELCOME TO CASINO WORLD=======\n\n";
+
     cout << "\n\nWhat's your Name : ";
     getline(cin, playerName);
     cout << "\n\nEnter the starting balance to play game : $";
